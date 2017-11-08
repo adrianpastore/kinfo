@@ -1,0 +1,88 @@
+*{
+  padding: 0;
+  margin:0;
+}
+body{
+    background-color: #99da95;
+}
+.navbar {
+  margin: 0;
+  height: 30%;
+  width: 80%;
+  margin-left: 10%;
+  background-color: #f2de77;
+  border-color:#6488ed;
+  border-style:dashed;
+  border-width:thick;
+}
+.navbar-header{
+  width: 60%;
+  text-align: right;
+}
+div.navbar-header h1{
+ padding-top: 10%;
+ font-size: 70px;
+ color:#ff7b1c;
+ font-family:monospace;
+}
+.nav.navbar-nav{
+  margin-left: 10%;
+  background-color: #f9c98a;
+  width: 80%;
+}
+ul.nav.navbar-nav li{
+  border-style: solid;
+  border-color: #6488ed;
+  border-spacing: 10%;
+  width: 25%;
+  text-align: center;
+}
+.nav.navbar-nav a:hover{
+  background-color:#25ff69;
+  color: white;
+}
+.slider{
+  margin-top: 10%;
+  margin-left: 3%;
+  width: 94%;
+}
+div.title{
+  margin-top: 10%;
+  margin-left: 5%;
+  color: #bb1254;
+  border-style: groove;
+  width: 28%;
+  text-align: center;
+  border-color: white;
+}
+.table1{
+  margin-top: 5%;
+  text-align: center;
+  margin-left: 4.5%;
+  width: 90%;
+  height: 60%;
+}
+.table1 th{
+  text-align: center;
+  width: 1%;
+  height: 10%;
+}
+td.element {
+  width: 5%;
+  height: 10%;
+  border-style: ridge;
+}
+td.familia{
+  border: none;
+}
+
+.table1 td:hover{
+  background-color: white;
+}
+.space{
+  width: 100%;
+  height: 10%;
+}
+td.no-border{
+  border-style: none;
+}
